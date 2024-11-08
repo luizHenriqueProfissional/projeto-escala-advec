@@ -1,0 +1,62 @@
+.menu_home {
+    text-align: center;
+    background-color:#3742fa;
+    color: #ffffff;
+}
+.conferencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin: 20px;
+    border: 0 1px solid #ffffff;
+    border-radius: 10px;
+}
+.conferencias img {
+    margin: 10px;
+    height:  250px;
+    border-radius: 10px;
+    width: 375px;
+    border: 3px solid #ffffff;
+}
+.conferencias img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all ease 3ms;
+
+}
+.main_conferencias h1{
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+}
+.conferencias h2 {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bolder;
+    font-size: 37px;
+    margin-top: 80px;
+}
+.conferencias h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.conferencias p{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #d2dae2;
+}
+.divisoria{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.div_seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_seta svg{
+    font-size: 3em;
+}
+
+
